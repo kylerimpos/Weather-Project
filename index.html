@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <script defer src="/app.js"></script>
+    <script defer src="https://kit.fontawesome.com/b12346c233.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="search">
+            <input type="text" id="search_input" placeholder="Find Place">
+            <button id="search_button"><i class="fa-solid fa-magnifying-glass fa-2xl"></i>
+            </button>
+        </div>
+
+        <div class="current">
+            <div class="icon_container">
+                <div class="time"></div>
+                <div class="icon"></div>
+                <div class="icon_desc"></div>
+            </div>
+            <div class="temperature_container">
+                <div class="temperature">
+                </div>
+                <div class="tmp">
+                </div>
+            </div>
+            <div class="more_info_container">
+                <div class="place_container">
+                </div>
+                <div class="values_container">
+                </div>
+                <div class="info_icons">
+                    <img src="icons/humidity.png">
+                    <img src="icons/cloud.png">
+                    <img src="icons/wind.png">
+                </div>
+                <div class="info_icons_desc">
+                    <h5>Humidity</h5>
+                    <h5>Cloud Cover</h5>
+                    <h5>Wind Chill</h5>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+        </div>
+    </div>
+</body>
+
+
+</html>
