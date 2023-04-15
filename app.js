@@ -31,7 +31,6 @@ const get_location = (loc) => {
   )
     .then((response) => response.json())
     .then((response) => {
-      console.log(response);
       document.querySelector(".place_container").innerHTML = " ";
       document.querySelector(
         ".place_container"
@@ -83,7 +82,6 @@ const display_current = (data) => {
   document.querySelector(
     ".values_container"
   ).innerHTML += `<h3>${data.wind_chill}°C</h3>`;
-  console.log(data);
 };
 
 const get_forecast = (lat, long) => {
