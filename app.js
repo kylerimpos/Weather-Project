@@ -130,10 +130,11 @@ const get_day = (date) => {
   let st = date.split("-");
   return st[2];
 };
+
 const options = {
-  method: "GET",
-  headers: {
-    "X-RapidAPI-Key": "360a8f9706msh0d09686a48efc69p1f09eajsna9c5b80a8874",
-    "X-RapidAPI-Host": "ai-weather-by-meteosource.p.rapidapi.com",
-  },
+	method: 'GET',
+	headers: {
+		'X-RapidAPI-Key': '2bdb1c4002mshb2a675780344c28p19e8b0jsn72bc43479955',
+		'X-RapidAPI-Host': 'ai-weather-by-meteosource.p.rapidapi.com'
+	}
 };
